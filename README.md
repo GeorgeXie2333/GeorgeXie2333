@@ -79,7 +79,7 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,java,typescript,javascript,react,nodejs,shell,docker,git,githubactions&theme=light&perline=10" alt="Tech Stack" />
+    <img src="https://skillicons.dev/icons?i=python,java,typescript,javascript,react,nodejs,linux,docker,git,githubactions&theme=light&perline=10" alt="Tech Stack" />
   </a>
 </p>
 
