@@ -17,13 +17,10 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate contribution snake animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+      # NOTE on ordering: Platane/snk runs as root (Docker action) and would
+      # create dist/ owned by root, which then blocks the Node-based stats
+      # action (runner user) with EACCES. So we let the Node action create
+      # dist/ first (owner = runner), then run snk, then fix ownership.
 
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
@@ -40,6 +37,17 @@ jobs:
           options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&theme=transparent&title_color=F48FB1&text_color=6A6A8E&bg_color=00000000&langs_count=8
           path: dist/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate contribution snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Restore dist ownership to runner
+        run: sudo chown -R "$(id -u):$(id -g)" dist
 
       - name: Push generated assets to the output branch
         uses: crazy-max/ghaction-github-pages@v4
