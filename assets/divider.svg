@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 24" width="720" height="24" role="img" aria-label="animated pastel divider">
+  <defs>
+    <linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F7B2D6">
+        <animate attributeName="stop-color" values="#F7B2D6;#8EC5FC;#A8E6CF;#F7B2D6" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#8EC5FC">
+        <animate attributeName="stop-color" values="#8EC5FC;#A8E6CF;#F7B2D6;#8EC5FC" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#A8E6CF">
+        <animate attributeName="stop-color" values="#A8E6CF;#F7B2D6;#8EC5FC;#A8E6CF" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  <line x1="20" y1="12" x2="700" y2="12" stroke="url(#divGrad)" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 10">
+    <animate attributeName="stroke-dashoffset" from="0" to="-120" dur="4s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="360" cy="12" r="5" fill="url(#divGrad)">
+    <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
