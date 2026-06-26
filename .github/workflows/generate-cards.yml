@@ -2,7 +2,7 @@ name: Generate profile cards
 
 on:
   schedule:
-    - cron: "0 0 * * 1" # refresh weekly (Monday)
+    - cron: "0 0 * * *" # refresh daily
   workflow_dispatch:
   push:
     branches:

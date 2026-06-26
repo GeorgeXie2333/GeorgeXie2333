@@ -71,10 +71,6 @@
 </p>
 
 <p align="center">
-  <em>The cards above are generated weekly by a GitHub Action in <code>.github/workflows/generate-cards.yml</code>. On first push, enable Actions once and trigger the workflow to populate the <code>output</code> branch.</em>
-</p>
-
-<p align="center">
   <img src="https://raw.githubusercontent.com/GeorgeXie2333/GeorgeXie2333/main/assets/divider.svg" width="720" alt="divider" />
 </p>
 
@@ -122,32 +118,11 @@
 <!-- Featured projects -->
 <h2 align="center">⭐ Featured Projects</h2>
 
-<table align="center">
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/GeorgeXie2333/LLM-Stream-Optimizer">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=GeorgeXie2333&repo=LLM-Stream-Optimizer&theme=transparent&title_color=F48FB1&icon_color=8EC5FC&text_color=6A6A8E&hide_border=true" alt="LLM-Stream-Optimizer" />
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/GeorgeXie2333/DEEIX-Chat">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=GeorgeXie2333&repo=DEEIX-Chat&theme=transparent&title_color=F48FB1&icon_color=8EC5FC&text_color=6A6A8E&hide_border=true" alt="DEEIX-Chat" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/GeorgeXie2333/Project-WARP-Unlock">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=GeorgeXie2333&repo=Project-WARP-Unlock&theme=transparent&title_color=F48FB1&icon_color=8EC5FC&text_color=6A6A8E&hide_border=true" alt="Project-WARP-Unlock" />
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/GeorgeXie2333/Socat">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=GeorgeXie2333&repo=Socat&theme=transparent&title_color=F48FB1&icon_color=8EC5FC&text_color=6A6A8E&hide_border=true" alt="Socat" />
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/GeorgeXie2333/LLM-Stream-Optimizer">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GeorgeXie2333&repo=LLM-Stream-Optimizer&theme=transparent&title_color=F48FB1&icon_color=8EC5FC&text_color=6A6A8E&hide_border=true" alt="LLM-Stream-Optimizer" />
+  </a>
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/GeorgeXie2333/GeorgeXie2333/main/assets/divider.svg" width="720" alt="divider" />
