@@ -139,7 +139,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/visitors/badge.svg?color=F48FB1&label=Visitors&logo=github&logoColor=white" alt="Visitors" />
+  <img src="https://github-view-counter.vercel.app/api?username=GeorgeXie2333&label=Visitors&color=F48FB1&labelColor=8EC5FC&style=rounded&icon=true&iconColor=FFFFFF" alt="Visitors" />
 </p>
 
 <p align="center">
