@@ -38,6 +38,22 @@ jobs:
           path: dist/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate usque-app project card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=usque-app&hide_border=true&theme=transparent&title_color=F48FB1&icon_color=8EC5FC&text_color=6A6A8E&bg_color=00000000
+          path: dist/usque-app.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate LLM-Stream-Optimizer project card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=LLM-Stream-Optimizer&hide_border=true&theme=transparent&title_color=F48FB1&icon_color=8EC5FC&text_color=6A6A8E&bg_color=00000000
+          path: dist/llm-stream-optimizer.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate contribution snake animation
         uses: Platane/snk@v3
         with:

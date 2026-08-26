@@ -120,10 +120,10 @@
 
 <p align="center">
   <a href="https://github.com/GeorgeXie2333/usque-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GeorgeXie2333&repo=usque-app&theme=transparent&title_color=F48FB1&icon_color=8EC5FC&text_color=6A6A8E&hide_border=true" alt="usque-app" />
+    <img src="https://raw.githubusercontent.com/GeorgeXie2333/GeorgeXie2333/output/usque-app.svg" alt="usque-app" width="48%" />
   </a>
   <a href="https://github.com/GeorgeXie2333/LLM-Stream-Optimizer">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GeorgeXie2333&repo=LLM-Stream-Optimizer&theme=transparent&title_color=F48FB1&icon_color=8EC5FC&text_color=6A6A8E&hide_border=true" alt="LLM-Stream-Optimizer" />
+    <img src="https://raw.githubusercontent.com/GeorgeXie2333/GeorgeXie2333/output/llm-stream-optimizer.svg" alt="LLM-Stream-Optimizer" width="48%" />
   </a>
 </p>
 
