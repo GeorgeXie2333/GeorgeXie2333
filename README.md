@@ -79,13 +79,14 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,java,typescript,javascript,react,nodejs,linux,docker,git,githubactions&theme=light&perline=10" alt="Tech Stack" />
+    <img src="https://skillicons.dev/icons?i=python,java,rust,typescript,javascript,react,nodejs,linux,docker,git,githubactions&theme=light&perline=11" alt="Tech Stack" />
   </a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Code-Python-FFB7D5?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Code-Java-8EC5FC?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Code-Rust-CE8D66?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
   <img src="https://img.shields.io/badge/Code-TypeScript-A8E6CF?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Code-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/Code-Node.js-83CD29?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
