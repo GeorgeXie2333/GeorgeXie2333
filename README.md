@@ -34,7 +34,7 @@
   </tr>
   <tr>
     <td align="left">📍 <b>Location</b></td>
-    <td align="left">Hong Kong 🇭🇰</td>
+    <td align="left">Tokyo 🇯🇵</td>
   </tr>
   <tr>
     <td align="left">🏛️ <b>University</b></td>
